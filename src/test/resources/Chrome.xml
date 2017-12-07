@@ -11,8 +11,6 @@
     <test name = "Feature test">
         <classes>
             <class name = "NoteFeatureTest" />
-        </classes>
-        <classes>
             <class name = "ExportFeatureTest" />
         </classes>
     </test>
