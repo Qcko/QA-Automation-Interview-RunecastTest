@@ -11,7 +11,7 @@
     <test name = "Feature test">
         <classes>
             <class name = "NoteFeatureTest" />
-            <class name = "ExportFeatureTest" />
+            <!--<class name = "ExportFeatureTest" />-->
         </classes>
     </test>
 </suite>
