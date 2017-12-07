@@ -7,11 +7,12 @@
         <classes>
             <class name = "OpenApplicationTest" />
         </classes>
+
     </test>
     <test name = "Feature test">
         <classes>
             <class name = "NoteFeatureTest" />
-            <!--<class name = "ExportFeatureTest" />-->
         </classes>
+
     </test>
 </suite>

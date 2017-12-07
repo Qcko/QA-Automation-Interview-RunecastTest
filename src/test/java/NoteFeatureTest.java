@@ -31,13 +31,14 @@ public class NoteFeatureTest {
     private static final String NOTE_FEATURE_MODAL_DIALOG_BODY_LINK_URL = "https://www.runecast.biz/";
     private static final String NOTE_FEATURE_MODAL_DIALOG_BODY_BUTTON_TEXT = "Close";
     public WebDriver driver;
-    WebDriverWait wait = new WebDriverWait(driver, 20);
+    WebDriverWait wait ;
 
     @Parameters("browser")
     @BeforeMethod
     public void setUp(String browser) {
         char whichBrowser = browser.split("")[0].charAt(0);
         driver = BrowserSelection.getBrowser(whichBrowser);
+        wait = new WebDriverWait(driver, 20);
         OpenApplication.goToPage(driver);
         OpenApplication.logIn(driver);
 
